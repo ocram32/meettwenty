@@ -1,0 +1,103 @@
+.banner {
+    background-color: #F89880;
+    color: #f1f1f1;
+    height: 300px;
+  }
+
+  .bannergracias {
+    background-image: url(/media/fondogracias.jpg);
+    color: #f1f1f1;
+    height: 100%;
+  }
+
+  .contenido{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+
+  .banner2 {
+    background-color: #A0C1C3;
+    color: #f1f1f1;
+    height: 300px;
+  }
+
+  #parrafo {
+    font-size: 20px;
+  }
+
+  #titulo{
+    font-size: 30px;
+    color: aliceblue;
+  }
+
+  #titulo2 {
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+  }
+
+  #tarjetas{
+    background-color: #e7c592;
+  }
+ 
+  .container {
+    height: 100vh;
+  }
+  .row {
+    align-items: center;
+    height: 300px;
+    overflow:hidden;
+  }
+  .btn {
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+  }
+
+  .fw-bold.display-4 {
+    font-size: 40px;
+  }
+
+  .form-box {
+    max-width: 100%;
+    margin: auto;
+    padding: 50px;
+    background: #e7c592;
+  }
+
+  .card{
+    padding:0;
+    
+  }
+ 
+  .btn.btn-primary{
+    background-color: #A0C1C3;
+    border: 0;
+  }
+
+  @media screen and (min-width: 769px) {
+    p {
+      font-size: 1.2em;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .banner {
+      padding: 2em;
+      text-align: center;
+      height: 350px;
+    }
+
+    
+  .fw-bold.display-4 {
+    font-size: 20px;
+  }
+  }
+  @media screen and (max-width: 567px) {
+    img {
+      width: 70%;
+    }
+  }
+  
